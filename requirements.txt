@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-torch
-whisper
-pyannote.audio
-pydub
-spacy
-requests
