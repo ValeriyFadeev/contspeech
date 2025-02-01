@@ -20,4 +20,4 @@ COPY app.py /app/app.py
 EXPOSE 8000
 
 # 6) Запускаем сервер
-CMD ["uvicorn", "stt.server_speech:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "con_speech:app", "--host", "0.0.0.0", "--port", "8000"]
